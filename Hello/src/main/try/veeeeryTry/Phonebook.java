@@ -31,6 +31,10 @@ public class Phonebook {
     public void addPhone(Phone phone) {
         Phones.add(phone);
     }
+    
+    public void deletePhone(int phone) {
+        Phones.remove(phone);
+    }
 
     public String getName(int i) {
         return Phones.get(i).name;
